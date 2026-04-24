@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setup Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">Socialix</div>
+      </header>
+
+      <main class="main-content">
+        <section class="hero">
+          <div class="hero-card">
+            <h1>Setup Your Profile</h1>
+            <p>Choose a username and enter your full name. This information will show on your profile.</p>
+
+            <form id="setupForm" class="auth-form active">
+              <div class="field">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Choose a username" required />
+              </div>
+
+              <div class="field">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your full name" required />
+              </div>
+
+              <button type="submit" class="primary-button">Complete Setup</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

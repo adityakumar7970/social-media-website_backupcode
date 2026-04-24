@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Socialix Reels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-protected="true">
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand">Socialix</div>
+        <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Collapse sidebar">⇔</button>
+      </div>
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <a href="home.html" data-page="home">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5L12 4l8 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H5a1 1 0 0 1-1-1v-8.5z"></path></svg></span>
+          <span class="nav-label">Home</span>
+          <span class="nav-tooltip">Home</span>
+        </a>
+        <a href="reels.html" data-page="reels">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm6 5v6l5-3-5-3z"></path></svg></span>
+          <span class="nav-label">Reels</span>
+          <span class="nav-tooltip">Reels</span>
+        </a>
+        <a href="search.html" data-page="search">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 0 0 1.48-5.34c0-3.59-2.91-6.5-6.5-6.5s-6.5 2.91-6.5 6.5 2.91 6.5 6.5 6.5c1.35 0 2.6-.38 3.68-1.06l.27.27v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 10s2.01-4 4.5-4 4.5 2.01 4.5 4-2.01 4-4.5 4z"></path></svg></span>
+          <span class="nav-label">Search</span>
+          <span class="nav-tooltip">Search</span>
+        </a>
+        <a href="create.html" data-page="create">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a1 1 0 0 1 1 1v5h5a1 1 0 1 1 0 2h-5v5a1 1 0 1 1-2 0v-5H6a1 1 0 1 1 0-2h5V6a1 1 0 0 1 1-1z"></path></svg></span>
+          <span class="nav-label">Create</span>
+          <span class="nav-tooltip">Create</span>
+        </a>
+        <a href="profile.html" data-page="profile">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-7 2-7 4v2h14v-2c0-2-3-4-7-4z"></path></svg></span>
+          <span class="nav-label">Profile</span>
+          <span class="nav-tooltip">Profile</span>
+        </a>
+      </nav>
+    </aside>
+
+    <div class="page-main">
+      <header class="topbar">
+        <div class="brand">Socialix</div>
+        <button id="logout" class="nav-button">Logout</button>
+      </header>
+
+      <main class="main-content">
+        <section class="hero">
+          <div class="hero-card">
+            <h1>Reels</h1>
+            <p>See your latest photos and videos in an Instagram-style feed.</p>
+            <div class="reels-feed" id="reelsFeed">
+              <div class="empty-state">
+                <strong>No posts yet.</strong>
+                <p>Use the Create page to upload a photo or video and it will appear here.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
